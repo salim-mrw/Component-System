@@ -23,6 +23,4 @@
             }
         }
     }
-
-    $component = new component();
 ?>
