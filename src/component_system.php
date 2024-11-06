@@ -1,4 +1,5 @@
 <?php
+    use component_system\component_system;
     class component implements component_system{
 
         public function __construct(string $var = null) {
