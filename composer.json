@@ -1,0 +1,19 @@
+{
+    "name": "salim-mrw/component-system",
+    "description": "Composer's component system is a powerful tool for organizing and managing your PHP applications. It allows you to break your application down into smaller, reusable pieces, which can be easily shared and reused in other projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SalimMrw\\ComponentSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salim Marwan",
+            "email": "127626211+salim-mrw@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
