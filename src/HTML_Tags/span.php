@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <span 
             id='$id'
             class='$class'>

@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <div
             id='$id'
             class='$class'

@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <li
             id='$id'
             class='$class'

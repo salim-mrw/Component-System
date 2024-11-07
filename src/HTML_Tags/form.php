@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <form
             id='$id'
             class='$class'

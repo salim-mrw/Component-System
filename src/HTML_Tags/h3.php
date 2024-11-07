@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <h3
             id='$id'
             class='$class'

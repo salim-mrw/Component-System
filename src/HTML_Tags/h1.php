@@ -1,5 +1,5 @@
 <?php
-    return "
+    $return = "
         <h1
             id='$id'
             class='$class'
