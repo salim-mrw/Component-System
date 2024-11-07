@@ -16,7 +16,7 @@
         public function tr($id, $class):string;
         public function th($id, $class):string;
         public function td($id, $class):string;
-        public function img($id, $class, $width, $height):string;
+        public function img($id, $class, $src, $width, $height):string;
         public function h1($id, $class):string;
         public function h2($id, $class):string;
         public function h3($id, $class):string;

@@ -56,7 +56,7 @@
             return $return;
         }
 
-        public function img($id, $class, $width, $height):string{
+        public function img($id, $class, $src, $width, $height):string{
             include 'HTML_Tags/img.php';
             return $return;
         }
