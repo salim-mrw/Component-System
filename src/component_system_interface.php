@@ -1,4 +1,10 @@
 <?php
+
+    /**
+     * 
+     * 
+     */
+
     namespace component_system;
     interface component_system{
         public function div($id, $class):string;
