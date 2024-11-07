@@ -6,13 +6,13 @@ Composer's component system is a powerful tool for organizing and managing your 
 
 Components can be used to represent anything from a single class to a complex subsystem. They can be organized into packages, which provide a convenient way to group related components together.
 
-To create a component, you simply create a new PHP file and define a class. The class name should be prefixed with the name of the package, followed by a backslash. For example, if you are creating a component in the `SalimMrw/ComponentSystem` package, the class name would be `SalimMrw\ComponentSystem\MyComponent`.
+To create a component, you simply create a new PHP file and define a class. The class name should be prefixed with the name of the package, followed by a backslash. For example, if you are creating a component in the `salim-mrw/component-system` package, the class name would be `salim-mrw/component-system/component`.
 
 Once you have created a component, you can register it with Composer by adding an entry to the `composer.json` file. The following is an example of a `composer.json` file that registers a component:
 
 ```json
 {
-    "name": "SalimMrw/ComponentSystem",
+    "name": "salim-mrw/component-system",
     "type": "library",
     "autoload": {
         "psr-4": {
