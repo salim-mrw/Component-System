@@ -25,15 +25,15 @@ Once you have created a component, you can register it with Composer by adding a
 Once you have registered your component, you can install it using Composer. To do this, simply run the following command:
 
 ```
-composer require acme/widgets
+composer require SalimMrw/ComponentSystem
 ```
 
 Once the component is installed, you can use it in your PHP code by including the appropriate namespace. For example, to use the `MyComponent` class, you would use the following code:
 
 ```php
-use SalimMrw\ComponentSystem\MyComponent;
+use SalimMrw\ComponentSystem\component;
 
-$component = new MyComponent();
+$component = new component();
 ```
 
 Composer's component system is a powerful tool that can help you to organize and manage your PHP applications. It allows you to break your application down into smaller, reusable pieces, which can be easily shared and reused in other projects.
