@@ -28,7 +28,7 @@ Once you have registered your component, you can install it using Composer. To d
 composer require salim-mrw/component-system
 ```
 
-Once the component is installed, you can use it in your PHP code by including the appropriate namespace. For example, to use the `MyComponent` class, you would use the following code:
+Once the component is installed, you can use it in your PHP code by including the appropriate namespace. For example, to use the `component` class, you would use the following code:
 
 ```php
 use salim-mrw/component-system/component;
