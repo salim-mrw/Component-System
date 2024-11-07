@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <p
             id='$id'
             class='$class'

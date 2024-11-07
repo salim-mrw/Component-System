@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <th
             id='$id'
             class='$class'

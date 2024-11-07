@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <ul
             id='$id'
             class='$class'

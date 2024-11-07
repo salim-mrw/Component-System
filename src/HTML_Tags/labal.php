@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <labal
             id='$id'
             class='$class'

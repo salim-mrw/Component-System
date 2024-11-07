@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <lo
             id='$id'
             class='$class'

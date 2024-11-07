@@ -1,5 +1,5 @@
 <?php
-    echo "
+    return "
         <table
             id='$id'
             class='$class'
