@@ -2,10 +2,11 @@
 
     /**
      * 
+     * 
      */
 
     use component_system\component_system;
-    class component implements component_system{
+    abstract class component implements component_system{
 
         public function __construct(string $var = null) {
             $this->var = $var;
