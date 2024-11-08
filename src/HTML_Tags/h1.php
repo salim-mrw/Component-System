@@ -4,6 +4,7 @@
             id='$id'
             class='$class'
         >
+        $text
         </h1>
     ";
 ?>

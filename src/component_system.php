@@ -62,37 +62,37 @@
             return $return;
         }
 
-        public function h1($id, $class):string{
+        public function h1($id, $class, $text):string{
             include 'HTML_Tags/h1.php';
             return $return;
         }
 
-        public function h2($id, $class):string{
+        public function h2($id, $class, $text):string{
             include 'HTML_Tags/h2.php';
             return $return;
         }
 
-        public function h3($id, $class):string{
+        public function h3($id, $class, $text):string{
             include 'HTML_Tags/h3.php';
             return $return;
         }
 
-        public function h4($id, $class):string{
+        public function h4($id, $class, $text):string{
             include 'HTML_Tags/h4.php';
             return $return;
         }
 
-        public function h5($id, $class):string{
+        public function h5($id, $class, $text):string{
             include 'HTML_Tags/h5.php';
             return $return;
         }
 
-        public function h6($id, $class):string{
+        public function h6($id, $class, $text):string{
             include 'HTML_Tags/h6.php';
             return $return;
         }
 
-        public function p($id, $class):string{
+        public function p($id, $class, $text):string{
             include 'HTML_Tags/p.php';
             return $return;
         }
