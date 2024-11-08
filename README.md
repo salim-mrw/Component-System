@@ -6,13 +6,13 @@ Composer's component system is a powerful tool for organizing and managing your 
 
 Components can be used to represent anything from a single class to a complex subsystem. They can be organized into packages, which provide a convenient way to group related components together.
 
-To create a component, you simply create a new PHP file and define a class. The class name should be prefixed with the name of the package, followed by a backslash. For example, if you are creating a component in the `SalimMrw/ComponentSystem` package, the class name would be `SalimMrw\ComponentSystem\MyComponent`.
+To create a component, you simply create a new PHP file and define a class. The class name should be prefixed with the name of the package, followed by a backslash. For example, if you are creating a component in the `salim-mrw/component-system` package, the class name would be `salim-mrw/component-system/component`.
 
 Once you have created a component, you can register it with Composer by adding an entry to the `composer.json` file. The following is an example of a `composer.json` file that registers a component:
 
 ```json
 {
-    "name": "SalimMrw/ComponentSystem",
+    "name": "salim-mrw/component-system",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -25,15 +25,15 @@ Once you have created a component, you can register it with Composer by adding a
 Once you have registered your component, you can install it using Composer. To do this, simply run the following command:
 
 ```
-composer require acme/widgets
+composer require salim-mrw/component-system
 ```
 
-Once the component is installed, you can use it in your PHP code by including the appropriate namespace. For example, to use the `MyComponent` class, you would use the following code:
+Once the component is installed, you can use it in your PHP code by including the appropriate namespace. For example, to use the `component` class, you would use the following code:
 
 ```php
-use SalimMrw\ComponentSystem\MyComponent;
+use salim-mrw/component-system/component;
 
-$component = new MyComponent();
+$component = new component();
 ```
 
 Composer's component system is a powerful tool that can help you to organize and manage your PHP applications. It allows you to break your application down into smaller, reusable pieces, which can be easily shared and reused in other projects.
