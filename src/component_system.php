@@ -111,6 +111,16 @@
             return $return;
         }
 
+        public function hr($id, $class, $color):string{
+            include 'HTML_Tags/hr.php';
+            return $return;
+        }
+
+        public function br($id, $class, $color):string{
+            include 'HTML_Tags/br.php';
+            return $return;
+        }
+
         public function span($id, $class, $text, $loopnum):string{
             $count = 0;
             if($count != $loopnum){

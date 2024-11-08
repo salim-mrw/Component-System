@@ -27,6 +27,8 @@
         public function ul($id, $class):string;
         public function li($id, $class):string;
         public function lo($id, $class):string;
+        public function hr($id, $class, $color):string;
+        public function br($id, $class, $color):string;
         public function span($id, $class, $text, $loopnum):string;
     }
 ?>
