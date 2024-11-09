@@ -11,7 +11,9 @@
     "authors": [
         {
             "name": "Salim Marwan",
-            "email": "127626211+salim-mrw@users.noreply.github.com"
+            "email": "127626211+salim-mrw@users.noreply.github.com",
+            "homepage": "https://github.com/salim-mrw/",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
