@@ -1,11 +1,11 @@
 <?php
 
-    require '../src/component_system.php';
+    use component as material;
 
-    class test extends component{};
+    class myApp extends material{};
 
-    $t = new test();
+    $myApp = new myApp("","");
 
-    $t->h1("1","1","hello world!");
+    $myApp->h1("1","1",$myApp->h2("","",""));
 
 ?>

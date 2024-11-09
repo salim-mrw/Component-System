@@ -8,8 +8,9 @@
     use component_system\component_system;
     abstract class component implements component_system{
 
-        public function __construct(string $var = null) {
-            $this->var = $var;
+        public function __construct($tital, $theme_color){
+            $this->tital = $tital;
+            $this->theme_color = $theme_color;
         }
 
         public function div($id, $class):string{
