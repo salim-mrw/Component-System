@@ -132,5 +132,15 @@
             }
             return $return;
         }
+
+        public function loop($text, $loopnum):string{
+            $count = 0;
+            if($count != $loopnum){
+                $count+=1;
+                $return = $text;
+                $this->loop($text, $loopnum - 1);
+            }
+            return $return;
+        }
     }
 ?>
