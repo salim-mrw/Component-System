@@ -133,12 +133,11 @@
             return $return;
         }
 
-        public function loop($text, $loopnum):string{
-            $count = 0;
+        public static function loop($text, $loopnum, $count=0):string{
             if($count != $loopnum){
                 $count+=1;
                 $return = $text;
-                $this->loop($text, $loopnum - 1);
+                self::loop($text, $loopnum - 1);
             }
             return $return;
         }
