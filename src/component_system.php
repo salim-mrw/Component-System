@@ -28,7 +28,7 @@
             return $return;
         }
 
-        public static function input($id, $class, $name, $type, $placeholder, $required):string{
+        public static function input($id, $class, $name, $type, $placeholder, $required = "required"):string{
             include 'HTML_Tags/input.php';
             return $return;
         }

@@ -10,7 +10,7 @@
         public static function div($id, $class):string;
         public static function form($id, $class, $name, $method):string;
         public static function labal($id, $class, $for):string;
-        public static function input($id, $class, $name, $type, $placeholder, $required):string;
+        public static function input($id, $class, $name, $type, $placeholder):string;
         public static function button($id, $class, $type, $value):string;
         public static function table($id, $class):string;
         public static function tr($id, $class):string;
