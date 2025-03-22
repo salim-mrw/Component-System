@@ -123,13 +123,8 @@
             return $return;
         }
 
-        public static function span($id, $class, $text, $loopnum):string{
-            $count = 0;
-            if($count != $loopnum){
-                include 'HTML_Tags/span.php';
-                $count+=1;
-                //$this->span($id, $class, $text, $loopnum - 1);
-            }
+        public static function span($id, $class, $text):string{
+            include 'HTML_Tags/span.php';
             return $return;
         }
 

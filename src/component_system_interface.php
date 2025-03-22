@@ -29,6 +29,6 @@
         public static function lo($id, $class):string;
         public static function hr($id, $class, $color):string;
         public static function br($id, $class, $color):string;
-        public static function span($id, $class, $text, $loopnum):string;
+        public static function span($id, $class, $text):string;
     }
 ?>
