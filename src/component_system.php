@@ -8,9 +8,11 @@
     use component_system\component_system;
     abstract class component implements component_system{
 
-        private function __construct($tital, $theme_color){
+        private function __construct($tital, $theme_color, $maincss, $mainjs){
             $this->tital = $tital;
             $this->theme_color = $theme_color;
+            $this->maincss = $maincss;
+            $this->mainjs = $mainjs;
         }
 
         public static function div($id, $class):string{
@@ -132,7 +134,7 @@
             if($count != $loopnum){
                 $count+=1;
                 $return = $text;
-                self::loop($text, $loopnum - 1);
+                self::loop($text, $loopnum - 1, $count);
             }
             return $return;
         }
